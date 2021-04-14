@@ -1,0 +1,30 @@
+{
+  "name": "bumper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "set NODE_ENV=production&&node server.js",
+    "cms": "cd ../../backend/bumber && npm run develop",
+    "cmsprod": "cd ../../backend/bumber && npm run start",
+    "cmsbuild": "cd ../../backend/bumber && npm run build",
+    "devproject": "concurrently \"npm run cms\" \"npm run dev\"",
+    "buildproject": "concurrently \"npm run cmsbuild\" \"npm run build\"",
+    "startproject": "concurrently \"npm run cmsprod\" \"npm run start\"",
+    "prodproject": "concurrently \"npm run buildproject\" \"npm run startproject\""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "next": "10.0.7",
+    "next-images": "^1.7.0",
+    "nodemailer": "^6.4.18",
+    "nodemon": "^2.0.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}

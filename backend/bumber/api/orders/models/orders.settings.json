@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ClientName": {
+      "type": "string"
+    },
+    "ClientEmail": {
+      "type": "string"
+    },
+    "ClientPhone": {
+      "type": "string"
+    },
+    "ClientDelivery": {
+      "type": "string"
+    },
+    "ClientPay": {
+      "type": "string"
+    },
+    "cart": {
+      "collection": "product"
+    },
+    "coast": {
+      "type": "string"
+    },
+    "ClientDeliveryCity": {
+      "type": "string"
+    },
+    "ClientDeliveryStreet": {
+      "type": "string"
+    },
+    "ClientDeliveryHouse": {
+      "type": "string"
+    },
+    "ClientDeliveryFlat": {
+      "type": "string"
+    },
+    "ClientDeliveryIndex": {
+      "type": "string"
+    },
+    "cartJson": {
+      "type": "json"
+    }
+  }
+}

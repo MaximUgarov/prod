@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stamps",
+      "handler": "stamp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stamps/count",
+      "handler": "stamp.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stamps/:id",
+      "handler": "stamp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stamps",
+      "handler": "stamp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stamps/:id",
+      "handler": "stamp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stamps/:id",
+      "handler": "stamp.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

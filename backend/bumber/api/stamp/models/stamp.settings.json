@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stamps",
+  "info": {
+    "name": "stamp",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "products": {
+      "via": "stamp",
+      "collection": "product"
+    },
+    "models": {
+      "collection": "model"
+    }
+  }
+}

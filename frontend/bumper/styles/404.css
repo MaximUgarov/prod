@@ -1,0 +1,40 @@
+.\34 04-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+    width: max-content;
+}
+
+.\34 04__title {
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+}
+
+.\34 04__subtitle {
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.\34 04__link {
+    width: 258px;
+    height: 51px;
+    border: 0;
+    background: #FFD600;
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.8091px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 66px;
+}

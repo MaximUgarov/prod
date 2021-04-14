@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "name": "color"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "HEX": {
+      "type": "string"
+    }
+  }
+}
